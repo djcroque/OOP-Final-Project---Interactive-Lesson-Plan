@@ -594,8 +594,6 @@ public class MainLessonPlan {
                  while((line = reader2.readLine()) != null){
                     String[] row = line.split(",");
                     if (row[0].equals(catName)){
-                        System.out.println(catName);
-                        System.out.println(row[0]);
                         Teacher teacher = new Teacher(row[1], Integer.parseInt(row[2]), row[3]);
                         lessonPlan.setTeacher(teacher);
                         readLoop = false;
@@ -910,6 +908,7 @@ public class MainLessonPlan {
             }
         }
         }
+
 
 
 
