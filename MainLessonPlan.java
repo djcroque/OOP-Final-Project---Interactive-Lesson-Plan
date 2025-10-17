@@ -605,6 +605,8 @@ public class MainLessonPlan {
                     readLoop = false;
                     subMenu(role, stInd, subInd);
             }
+            readLoop = false;
+            reader2.close();
         }
         } catch (Exception e) {
             e.getStackTrace();
@@ -907,6 +909,7 @@ public class MainLessonPlan {
             }
         }
         }
+
 
 
 
