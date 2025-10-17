@@ -26,13 +26,5 @@ public class Coordinator extends User {
         return this.strand;
     }
 
-    /*public void assignTeacher(Teacher teacher, LessonPlan lessonPlan){
-        if ((teacher.getSubjectMajor()).equals(lessonPlan.getSubject())){
-            lessonPlan.setTeacher(teacher);
-        }
-        else {
-            System.out.println("Teacher is not compatible with lesson.");
-        }
-    }*/
-
 }
+
