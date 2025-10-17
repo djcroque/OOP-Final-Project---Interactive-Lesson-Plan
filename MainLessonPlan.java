@@ -216,7 +216,6 @@ public class MainLessonPlan {
             reader2.readLine();
             while((line = reader2.readLine()) != null){
                 String[] row = line.split(",");
-                System.out.println(Arrays.toString(row));
                 Teacher teacher = new Teacher(row[1], Integer.parseInt(row[2]), row[3]);
                 teacher.setLessonPlan(row[0]);
                 teachers.add(teacher);
@@ -908,6 +907,7 @@ public class MainLessonPlan {
             }
         }
         }
+
 
 
 
